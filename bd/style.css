@@ -145,16 +145,3 @@ body.night {
   z-index: 10;
 }
 
-.heart {
-  position: absolute;
-  width: 90px;
-  height: 72px;
-  pointer-events: none;
-  transition: opacity 0.9s ease, transform 0.9s ease;
-  z-index: 2;
-  transform-origin: center center;
-}
-.heart-left { clip-path: inset(0 50% 0 0); right: -45px; top: 50%; transform: translateY(-50%); }
-.heart-right { clip-path: inset(0 0 0 50%); left: -45px; top: 50%; transform: translateY(-50%); }
-.envelope.opened .heart { opacity: 0; transform: scale(0.8); }
-
